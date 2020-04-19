@@ -19,7 +19,7 @@ class PlaySoundsViewController: UIViewController {
     @IBOutlet weak var reverbButton: UIButton!
     @IBOutlet weak var stopButton: UIButton!
     
-    var recordedAudioURL:URL!
+    var recordedAudioURL: URL!
     var audioFile: AVAudioFile!
     var audioEngine: AVAudioEngine!
     var audioPlayerNode: AVAudioPlayerNode!
@@ -28,8 +28,6 @@ class PlaySoundsViewController: UIViewController {
     enum ButtonType: Int {
         case slow = 0, fast, chimpmunk, vader, echo, reverb
     }
-    
-    var recordAudioURL: URL!
     
     override func viewWillAppear(_ animated: Bool) {
         super.viewWillAppear(animated)
