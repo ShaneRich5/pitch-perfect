@@ -14,6 +14,7 @@
 		E76A2950244B7A4200830287 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E76A294F244B7A4200830287 /* Assets.xcassets */; };
 		E76A2953244B7A4200830287 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E76A2951244B7A4200830287 /* LaunchScreen.storyboard */; };
 		E76A295E244BCD3B00830287 /* PlaySoundsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E76A295D244BCD3B00830287 /* PlaySoundsViewController.swift */; };
+		E76A2960244BDB6900830287 /* PlaySoundsVieewController+Audio.swift in Sources */ = {isa = PBXBuildFile; fileRef = E76A295F244BDB6900830287 /* PlaySoundsVieewController+Audio.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +27,7 @@
 		E76A2952244B7A4200830287 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		E76A2954244B7A4200830287 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		E76A295D244BCD3B00830287 /* PlaySoundsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlaySoundsViewController.swift; sourceTree = "<group>"; };
+		E76A295F244BDB6900830287 /* PlaySoundsVieewController+Audio.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "PlaySoundsVieewController+Audio.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -66,6 +68,7 @@
 				E76A2951244B7A4200830287 /* LaunchScreen.storyboard */,
 				E76A2954244B7A4200830287 /* Info.plist */,
 				E76A295D244BCD3B00830287 /* PlaySoundsViewController.swift */,
+				E76A295F244BDB6900830287 /* PlaySoundsVieewController+Audio.swift */,
 			);
 			path = PitchPerfect;
 			sourceTree = "<group>";
@@ -145,6 +148,7 @@
 				E76A2947244B7A4000830287 /* AppDelegate.swift in Sources */,
 				E76A295E244BCD3B00830287 /* PlaySoundsViewController.swift in Sources */,
 				E76A2949244B7A4000830287 /* SceneDelegate.swift in Sources */,
+				E76A2960244BDB6900830287 /* PlaySoundsVieewController+Audio.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

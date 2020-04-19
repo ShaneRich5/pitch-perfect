@@ -7,8 +7,9 @@
 //
 
 import UIKit
+import AVFoundation
 
-class PlaySounsViewController: UIViewController {
+class PlaySoundsViewController: UIViewController {
     
     @IBOutlet weak var snailButton: UIButton!
     @IBOutlet weak var rabbitButton: UIButton!
@@ -17,6 +18,16 @@ class PlaySounsViewController: UIViewController {
     @IBOutlet weak var echoButton: UIButton!
     @IBOutlet weak var reverbButton: UIButton!
     @IBOutlet weak var stopButton: UIButton!
+    
+    var recordedAudioURL:URL!
+    var audioFile: AVAudioFile!
+    var audioEngine: AVAudioEngine!
+    var audioPlayerNode: AVAudioPlayerNode!
+    var stopTimer: Timer!
+    
+    enum ButtonType: Int {
+        case slow = 0, fast, chimpmunk, vader, echo, reverb
+    }
     
     var recordAudioURL: URL!
     
